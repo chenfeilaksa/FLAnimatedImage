@@ -13,6 +13,10 @@
 		5859EFEB28DDCE4200BC1ADB /* FLImageWebPCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5859EFE728DDCE4200BC1ADB /* FLImageWebPCoder.h */; };
 		5859EFEC28DDCE4200BC1ADB /* UIImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5859EFE828DDCE4200BC1ADB /* UIImage+WebP.h */; };
 		5859EFED28DDCE4200BC1ADB /* FLImageWebPCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5859EFE928DDCE4200BC1ADB /* FLImageWebPCoder.m */; };
+		5859EFF328DDD09000BC1ADB /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859EFEF28DDD09000BC1ADB /* WebP.framework */; };
+		5859EFF428DDD09000BC1ADB /* WebPMux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859EFF028DDD09000BC1ADB /* WebPMux.framework */; };
+		5859EFF528DDD09000BC1ADB /* WebPDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859EFF128DDD09000BC1ADB /* WebPDecoder.framework */; };
+		5859EFF628DDD09000BC1ADB /* WebPDemux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5859EFF228DDD09000BC1ADB /* WebPDemux.framework */; };
 		84C35646241D1B2D00052A01 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB1DD9241D0A4F0039C1C7 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84C35647241D1B2D00052A01 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB1DDA241D0A4F0039C1C7 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -25,6 +29,10 @@
 		5859EFE728DDCE4200BC1ADB /* FLImageWebPCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLImageWebPCoder.h; sourceTree = "<group>"; };
 		5859EFE828DDCE4200BC1ADB /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
 		5859EFE928DDCE4200BC1ADB /* FLImageWebPCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLImageWebPCoder.m; sourceTree = "<group>"; };
+		5859EFEF28DDD09000BC1ADB /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = "../../../Downloads/FLAnimatedImageViewForWebP-master/WebP.framework"; sourceTree = "<group>"; };
+		5859EFF028DDD09000BC1ADB /* WebPMux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebPMux.framework; path = "../../../Downloads/FLAnimatedImageViewForWebP-master/WebPMux.framework"; sourceTree = "<group>"; };
+		5859EFF128DDD09000BC1ADB /* WebPDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebPDecoder.framework; path = "../../../Downloads/FLAnimatedImageViewForWebP-master/WebPDecoder.framework"; sourceTree = "<group>"; };
+		5859EFF228DDD09000BC1ADB /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebPDemux.framework; path = "../../../Downloads/FLAnimatedImageViewForWebP-master/WebPDemux.framework"; sourceTree = "<group>"; };
 		84AB1DD9241D0A4F0039C1C7 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = include/FLAnimatedImage.h; sourceTree = "<group>"; };
 		84AB1DDA241D0A4F0039C1C7 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = include/FLAnimatedImageView.h; sourceTree = "<group>"; };
 		92C9BC0C1B199DC500D79B06 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5859EFF628DDD09000BC1ADB /* WebPDemux.framework in Frameworks */,
+				5859EFF528DDD09000BC1ADB /* WebPDecoder.framework in Frameworks */,
+				5859EFF328DDD09000BC1ADB /* WebP.framework in Frameworks */,
+				5859EFF428DDD09000BC1ADB /* WebPMux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,10 @@
 		0C22DAE61BCABF4F006E1D3B /* FLAnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
+				5859EFEF28DDD09000BC1ADB /* WebP.framework */,
+				5859EFF128DDD09000BC1ADB /* WebPDecoder.framework */,
+				5859EFF228DDD09000BC1ADB /* WebPDemux.framework */,
+				5859EFF028DDD09000BC1ADB /* WebPMux.framework */,
 				5859EFE528DDCE4200BC1ADB /* FLWebP */,
 				84AB1DD9241D0A4F0039C1C7 /* FLAnimatedImage.h */,
 				84AB1DDA241D0A4F0039C1C7 /* FLAnimatedImageView.h */,
